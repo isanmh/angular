@@ -25,3 +25,13 @@ ng generate c pages/features
 
 setting route :
 https://github.com/isanmh/angular
+
+alur pemanggilan service api :
+buat service :
+ng generate s services/teams-api/teams
+ng generate s services/contacts-api/contacts
+
+alur :
+servie.ts -> AppModule.ts
+(HttpClient, FormModule, RouterModule)
+ -> component.ts -> component.html

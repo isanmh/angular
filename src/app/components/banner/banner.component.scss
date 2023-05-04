@@ -1,0 +1,14 @@
+// ini untuk animasi
+.animasi {
+  animation: gerak 3s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes gerak {
+  0%,
+  100% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
