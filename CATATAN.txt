@@ -35,3 +35,13 @@ alur :
 servie.ts -> AppModule.ts
 (HttpClient, FormModule, RouterModule)
  -> component.ts -> component.html
+
+ ng generate c contacts/list-contacts
+ ng generate c contacts/edit-contacts
+
+
+buat resfull consumer api  dari backend :
+ng generate s services/contacts-api/contacts
+
+buat model :
+ng generate class models/contact

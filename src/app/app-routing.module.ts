@@ -4,6 +4,8 @@ import { HomeComponent } from './pages/home/home.component';
 // import { TeamsComponent } from './pages/teams/teams.component';
 import { FeaturesComponent } from './pages/features/features.component';
 import { TeamsComponent } from './pages/teams/teams.component';
+import { ListContactsComponent } from './contacts/list-contacts/list-contacts.component';
+import { EditContactsComponent } from './contacts/edit-contacts/edit-contacts.component';
 
 const routes: Routes = [
   {
@@ -17,6 +19,15 @@ const routes: Routes = [
   {
     path: 'features',
     component: FeaturesComponent,
+  },
+  // api backend
+  {
+    path: 'list',
+    component: ListContactsComponent,
+  },
+  {
+    path: 'edit-contact/:id',
+    component: EditContactsComponent,
   },
   {
     path: '**',

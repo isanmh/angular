@@ -12,6 +12,8 @@ import { FeaturesComponent } from './pages/features/features.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { ListContactsComponent } from './contacts/list-contacts/list-contacts.component';
+import { EditContactsComponent } from './contacts/edit-contacts/edit-contacts.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { RouterModule } from '@angular/router';
     HomeComponent,
     TeamsComponent,
     FeaturesComponent,
+    ListContactsComponent,
+    EditContactsComponent,
   ],
   imports: [
     BrowserModule,

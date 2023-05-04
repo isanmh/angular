@@ -1,6 +1,14 @@
 <div class="container">
   <h1>Our Teams</h1>
   <div class="row">
-    <h1 *ngFor="let t of teams.data">ulang</h1>
+    <div *ngFor="let t of teams.data" class="col-md-4 mb-4">
+      <div class="card text-center">
+        <img class="card-img-top" src="{{ t.avatar }}" alt="teams" />
+        <div class="card-body">
+          <h4 class="card-title">{{ t.first_name }} {{ t.lastname }}</h4>
+          <p class="card-text">{{ t.email }}</p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
